@@ -1,0 +1,15 @@
+.headers{
+    background-color: lightsteelblue;
+    border-bottom: 1px solid;
+    h1, h2, h3{
+        text-align: center;
+    }
+}
+
+.finalPage{
+    display: flex;
+    flex-direction: column;
+    h1, h2, h3{
+        text-align: center;
+    }
+}

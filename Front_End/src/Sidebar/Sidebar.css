@@ -1,0 +1,37 @@
+.sidebarCoordinador{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15%;
+    margin-right: 1%;
+    border-right: 1px solid;
+    background-color: lightsteelblue;
+    height: 83.8dvh;
+}
+
+.sidebarAdministrativo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15%;
+    margin-right: 1%;
+    border-right: 1px solid;
+    background-color:lightsteelblue;
+    height: 83.8dvh;
+}
+
+.sidebarProfesor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15%;
+    margin-right: 1%;
+    border-right: 1px solid;
+    background-color: lightsteelblue;
+    height: 83.8dvh;
+}
+
+.totalPage{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}

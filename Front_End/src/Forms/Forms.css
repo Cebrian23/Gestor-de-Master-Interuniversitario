@@ -1,0 +1,329 @@
+.grid_group_Titulacion1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5dvh;
+    place-items: center;
+}
+
+.grid_group_Titulacion2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25dvh;
+    place-items: center;
+}
+
+.grid_group_Titulacion3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25dvh;
+    place-items: center;
+}
+
+.grid_group_Curso{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+}
+
+.grid_group_TFM{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -0.78%;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+}
+
+.login{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25dvh;
+    place-items: center;
+}
+
+.register{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5dvh;
+    place-items: center;
+}
+
+.newAsig{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17dvh;
+    place-items: center;
+}
+
+.newNotas{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5dvh;
+    place-items: center;
+    display: grid;
+    grid-template-rows: 1dvh 70dvh;
+}
+
+.newUser{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15dvh;
+    place-items: center;
+}
+
+.newAdministrativo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25dvh;
+    place-items: center;
+}
+
+.newCoordinadorProfesor{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20dvh;
+    place-items: center;
+}
+
+.newEstudiante{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15dvh;
+    place-items: center;
+}
+
+.upt{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12dvh;
+    place-items: center;
+    width: 100%;
+}
+
+.loginForm{
+    border: 1px black solid;
+    border-radius: 5dvh;
+    background-color: #f8fafc;
+    padding: 1%;
+    width: 40dvh;
+    h1, h2, h3{
+        text-align: center;
+    }
+}
+
+.newAsignatura{
+    border: 1px black solid;
+    border-radius: 5dvh;
+    background-color: #f8fafc;
+    padding: 1%;
+    width: 180%;
+    h1, h2, h3{
+        text-align: center;
+    }
+}
+
+.registerForm{
+    border: 1px black solid;
+    border-radius: 5dvh;
+    background-color: #f8fafc;
+    padding: 1%;
+    width: 220%;
+    h1, h2, h3{
+        text-align: center;
+    }
+}
+
+.uptUserForm{
+    border: 1px black solid;
+    border-radius: 5dvh;
+    background-color: #f8fafc;
+    padding: 1%;
+    width: 30%;
+    h1, h2, h3{
+        text-align: center;
+    }
+    padding-right: 1dvh;
+    padding-left: 1dvh;
+    padding-bottom: 1dvh;
+}
+
+.newTitulacion{
+    border: 1px black solid;
+    border-radius: 5dvh;
+    background-color: #f8fafc;
+    padding: 1%;
+    width: 75dvh;
+    #principal{
+        width: 25dvh;
+    }
+    #universidad{
+        width: 40dvh;
+    }
+    h1, h2, h3{
+        text-align: center;
+    }
+}
+
+.newTFM{
+    border: 1px black solid;
+    border-radius: 5dvh;
+    margin-top: 2dvh ;
+    background-color: #f8fafc;
+    padding: 1%;
+    width: 50dvh;
+    h1, h2, h3{
+        text-align: center;
+    }
+}
+
+.newCurso{
+    border: 1px black solid;
+    border-radius: 5dvh;
+    background-color: #f8fafc;
+    padding: 1%;
+    width: 100%;
+    h1, h2, h3{
+        text-align: center;
+    }
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    label{
+        margin: 1%;
+    }
+    select{
+        margin: 1%;
+    }
+    input{
+        margin: 1%;
+    }
+    button{
+        margin:1%;
+    }
+}
+
+.combo_data{
+    display: flex;
+    flex-direction: row;
+    input{
+        width: 100%;
+    }
+    select{
+        width: fit-content;
+    }
+}
+
+.add_data{
+    display: flex;
+    flex-direction: row;
+    input{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+    button{
+        margin-right: 1%;
+        margin-top: 1%;
+        height: 75%;
+    }
+}
+
+.intra_div1{
+    display: flex;
+    flex-direction: row;
+    input{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+    button{
+        margin: 1%;
+        width: 100%;
+    }
+}
+
+.intra_div2{
+    display: flex;
+    flex-direction: row;
+    input{
+        width: 100%;
+    }
+    #cred_oblig{
+        width: 38dvh;
+    }
+    #cred_opt{
+        width: 39.9dvh;
+    }
+    #creditosTFM{
+        width: 80.8%;
+    }
+    button{
+        margin: 1%;
+        width: 100%;
+    }
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    button{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
+.buttonsNotas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    button{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.message_response{
+    border-radius: 5dvh;
+    border: 1px black solid;
+    background-color: #f8fafc;
+    text-align: center;
+    width: 75dvh;
+    margin-top: 35dvh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20dvh;
+}
+
+.message_auto{
+    text-align: justify;
+}
+
+.error{
+    text-align: center;
+    color: red;
+}
+
+.message{
+    text-align: center;
+    color: green;
+}

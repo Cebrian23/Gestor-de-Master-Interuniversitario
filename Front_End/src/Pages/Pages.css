@@ -1,0 +1,552 @@
+.show{
+    border: 1px black solid;
+    justify-content: center;
+    width: 25%;
+}
+
+.showTitulaciones{
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    display: grid;
+    grid-template-rows: 10dvh 70dvh 10dvh;
+    width: 100%;
+    div{
+        width: 100%;
+        place-items: center;
+        place-content: center;
+    }
+}
+
+.grid_titulaciones1{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 5%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_titulaciones2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 5%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_titulaciones3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;    
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 5%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.showAsigsTitulacion{
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    display: grid;
+    grid-template-rows: 10dvh 70.95dvh 10dvh;
+    width: 100%;
+    div{
+        width: 100%;
+        place-items: center;
+        place-content: center;
+    }
+}
+
+.grid_asigs_titulacion1{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 5%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_asigs_titulacion2{
+    display: grid;
+    width: 100dvh;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 5%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_asigs_titulacion3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;    
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 2%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.showAsigsDocente{
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    display: grid;
+    grid-template-rows: 10dvh 70.95dvh 10dvh;
+    width: 100%;
+    div{
+        width: 100%;
+        place-items: center;
+        place-content: center;
+    }
+}
+
+.grid_asigs_docente1{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 2%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_asigs_docente2{
+    display: grid;
+    width: 100dvh;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 2%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_asigs_docente3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;    
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 2%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.showCursos{
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    display: grid;
+    grid-template-rows: 10dvh 70.9dvh 10dvh;
+    width: 100%;
+    div{
+        width: 100%;
+        place-items: center;
+        place-content: center;
+    }
+}
+
+.grid_cursos1{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 2%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_cursos2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin: 3%;
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 2%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_cursos3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;    
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 2%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_cursosTFM1{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 2%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_cursosTFM2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin: 3%;
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 2%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.grid_cursosTFM3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;    
+    .cards{
+        border: 1px black solid;
+        border-radius: 3dvh;
+        background-color: #f8fafc;
+        width: 70dvh;
+        text-align: center;
+        margin: 2%;
+    }
+    button{
+        margin-bottom: 2%;
+    }
+}
+
+.data{
+    text-align: center;
+    padding: 2%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.tablaNotas{
+    border-collapse: collapse;
+    background-color: #f8fafc;
+    margin-top: 10dvh;
+    td{
+        text-align: center;
+        padding: 5px;
+        border: 1px solid black;
+    }
+    th{
+        padding: 5px;
+        border: 1px solid black;
+    }
+    tr{
+        border: 1px solid black;
+    }
+    select{
+        width: 100%;
+        border: white;
+        background-color: #f8fafc;
+    }
+    input{
+        margin-block-start: 16.5px;
+        margin-block-end: 16.5px;
+        text-align: center;
+        border: white;
+        background-color: #f8fafc;
+    }
+}
+
+.Asigs_Imp_Pages{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25dvb;
+    place-items: center;
+    width: 100%;
+}
+
+.Titulaciones_Pages{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25dvb;
+    place-items: center;
+    width: 100%;
+}
+
+.TitulacionPage, .AsignaturaImpPage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5dvb;
+    place-items: center;
+    width: 100%;
+}
+
+.CursoPage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5dvb;
+    place-items: center;
+    width: 100%;
+}
+
+.AsignaturaTitulacionPage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5dvb;
+    place-items: center;
+    width: 100%;
+}
+
+.AsignaturaTitulacionPageMenu, .AsignaturaImpPageMenu{
+    border: 1px black solid;
+    margin-top: 5dvb;
+    background-color: #f8fafc;
+    width: 20%;
+    h1, h2, h3{
+        text-align: center;
+    }
+}
+
+.TitulacionPageMenu{
+    border: 1px black solid;
+    margin-top: 5dvb;
+    background-color: #f8fafc;
+    width: 25%;
+    h1, h2, h3{
+        text-align: center;
+    }
+}
+
+.CursoPageMenu{
+    border: 1px black solid;
+    margin-top: 5dvb;
+    background-color: #f8fafc;
+    width: 25%;
+    h1, h2, h3{
+        text-align: center;
+    }
+}
+
+.AsignaturaImp{
+    margin-left: 50dvb;
+    margin-right: 50dvb;
+    place-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    label{
+        margin: 1%;
+    }
+    select{
+        margin: 1%;
+    }
+    input{
+        margin: 1%;
+    }
+}
+
+.controlCalidadPage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5dvb;
+    place-items: center;
+    width: 100%;
+}
+
+.controlCalidadMenu{
+    border: 1px black solid;
+    background-color: #f8fafc;
+    width: 50dvh;
+}
+
+.graficos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3dvb;
+}
+
+.notasAlumnosPage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5dvb;
+    place-items: center;
+    width: 100%;
+}
+
+.notasAlumnosMenu{
+    border: 1px black solid;
+    background-color: #f8fafc;
+    width: 40dvh;
+}
+
+.tablaNotasAlumnos{
+    margin-top: 5dvh;
+    border-collapse: collapse;
+    background-color: #f8fafc;
+    td{
+        text-align: center;
+        padding: 5px;
+        border: 1px solid black;
+    }
+    th{
+        padding: 5px;
+        border: 1px solid black;
+    }
+    tr{
+        border: 1px solid black;
+    }
+    select{
+        width: 100%;
+        border: white;
+        background-color: #f8fafc;
+    }
+    input{
+        margin-block-start: 16.5px;
+        margin-block-end: 16.5px;
+        text-align: center;
+        border: white;
+        background-color: #f8fafc;
+    }
+}
+
+.userPageShow{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25dvb;
+    place-items: center;
+}
+
+.userPage{
+    border: 1px black solid;
+    border-radius: 5dvh;
+    background-color: #f8fafc;
+    padding: 3%;
+    width: 45dvh;
+    h1, h2, h3{
+        text-align: center;
+    }
+    .columns{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+}
+
+.logout_response{
+    border-radius: 5dvh;
+    border: 1px black solid;
+    background-color: #f8fafc;
+    text-align: center;
+    width: 75dvh;
+    margin-top: 7.5dvh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20dvh;
+}
