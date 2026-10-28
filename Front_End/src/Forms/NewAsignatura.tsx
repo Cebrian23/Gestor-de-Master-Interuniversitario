@@ -29,7 +29,7 @@ function NewAsignatura() {
                 globalThis.location.href = "/login";
             }
             
-            const url_persona = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url_persona = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response_persona = await fetch(url_persona, {
                 method: "GET",
             });
@@ -55,7 +55,7 @@ function NewAsignatura() {
                 globalThis.location.href = "/paginaPersonal"
             }
 
-            const url = `https://tfg-back-end.onrender.com/titulacion/cursos?id=${id_titulacion}`;
+            const url = `https://tfg-back-end-w9t4.onrender.com/titulacion/cursos?id=${id_titulacion}`;
             const response = await fetch(url, {
                 method: "GET",
             });
@@ -118,7 +118,7 @@ function NewAsignatura() {
             NProgress.start();
 
             try{
-                const url = `https://tfg-back-end.onrender.com/asignatura`;
+                const url = `https://tfg-back-end-w9t4.onrender.com/asignatura`;
                 const response = await fetch(url, {
                     method: "POST",
                     body: JSON.stringify(data),

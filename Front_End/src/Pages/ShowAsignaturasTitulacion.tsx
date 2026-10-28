@@ -20,7 +20,7 @@ function ShowAsignaturasTitulacion() {
                 globalThis.location.href = "/login";
             }
             
-            const url_persona = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url_persona = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response_persona = await fetch(url_persona, {
                 method: "GET",
             });
@@ -48,7 +48,7 @@ function ShowAsignaturasTitulacion() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const url_titulacion = `https://tfg-back-end.onrender.com/titulacion?id=${TFG_titulacion}`;
+            const url_titulacion = `https://tfg-back-end-w9t4.onrender.com/titulacion?id=${TFG_titulacion}`;
             const response_titulacion = await fetch(url_titulacion, {
                 method: "GET",
             });

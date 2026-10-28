@@ -53,7 +53,7 @@ function ShowNotasUniversidad() {
                 globalThis.location.href = "/login";
             }
 
-            const url_auth = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url_auth = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response_user = await fetch(url_auth, {
                 method: "GET",
             });
@@ -81,7 +81,7 @@ function ShowNotasUniversidad() {
                 globalThis.location.href = "/paginaPersonal"
             }
 
-            const url_titulacion = `https://tfg-back-end.onrender.com/titulacion?id=${TFG_titulacion}`;
+            const url_titulacion = `https://tfg-back-end-w9t4.onrender.com/titulacion?id=${TFG_titulacion}`;
             const response_titulacion = await fetch(url_titulacion, {
                 method: "GET",
             });
@@ -108,7 +108,7 @@ function ShowNotasUniversidad() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const url_creacion = `https://tfg-back-end.onrender.com/titulacion/creacion?titulacion=${TFG_titulacion}`;
+            const url_creacion = `https://tfg-back-end-w9t4.onrender.com/titulacion/creacion?titulacion=${TFG_titulacion}`;
             const response_creacion = await fetch(url_creacion, {
                 method: "GET",
             });
@@ -155,7 +155,7 @@ function ShowNotasUniversidad() {
 
             setCursosDisponibles(cursos_disponibles);
 
-            const url_asig = `https://tfg-back-end.onrender.com/asignaturas/nombres?titulacion=${TFG_titulacion}`;
+            const url_asig = `https://tfg-back-end-w9t4.onrender.com/asignaturas/nombres?titulacion=${TFG_titulacion}`;
             const response_asig = await fetch(url_asig, {
                 method: "GET",
             });
@@ -178,7 +178,7 @@ function ShowNotasUniversidad() {
         setCurso(e.currentTarget.value);
 
         if(convocatoria.trim() !== "" && e.currentTarget.value.trim() !== ""){
-            const url_notas = `https://tfg-back-end.onrender.com/asignaturas/notas_curso?titulacion=${titulacion}&universidad=${universidad}&curso=${e.currentTarget.value}&convocatoria=${convocatoria}`;
+            const url_notas = `https://tfg-back-end-w9t4.onrender.com/asignaturas/notas_curso?titulacion=${titulacion}&universidad=${universidad}&curso=${e.currentTarget.value}&convocatoria=${convocatoria}`;
             const response_notas = await fetch(url_notas, {
                 method: "GET",
             });
@@ -225,7 +225,7 @@ function ShowNotasUniversidad() {
         setConvocatoria(e.currentTarget.value)
 
         if(curso.trim() !== "" && e.currentTarget.value.trim() !== ""){
-            const url_notas = `https://tfg-back-end.onrender.com/asignaturas/notas_curso?titulacion=${titulacion}&universidad=${universidad}&curso=${curso}&convocatoria=${e.currentTarget.value}`;
+            const url_notas = `https://tfg-back-end-w9t4.onrender.com/asignaturas/notas_curso?titulacion=${titulacion}&universidad=${universidad}&curso=${curso}&convocatoria=${e.currentTarget.value}`;
             const response_notas = await fetch(url_notas, {
                 method: "GET",
             });

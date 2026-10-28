@@ -17,7 +17,7 @@ function CursoTFMPage() {
                 globalThis.location.href = "/login";
             }
 
-            const url_auth = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url_auth = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response_user = await fetch(url_auth, {
                 method: "GET",
             });
@@ -41,7 +41,7 @@ function CursoTFMPage() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const url_titulacion = `https://tfg-back-end.onrender.com/titulacion?id=${TFG_titulacion}`;
+            const url_titulacion = `https://tfg-back-end-w9t4.onrender.com/titulacion?id=${TFG_titulacion}`;
             const response_titulacion = await fetch(url_titulacion, {
                 method: "GET",
             });
@@ -79,7 +79,7 @@ function CursoTFMPage() {
                 globalThis.location.href = "/mostrarTitulaciones";
             }
 
-            const url_TFM_Block = `https://tfg-back-end.onrender.com/bloque_TFM?bloque=${TFG_TFM_Block}`
+            const url_TFM_Block = `https://tfg-back-end-w9t4.onrender.com/bloque_TFM?bloque=${TFG_TFM_Block}`
             const response_TFM_Block = await fetch(url_TFM_Block, {
                 method: "GET",
             });
@@ -97,7 +97,7 @@ function CursoTFMPage() {
                 globalThis.location.href = "/mostrarAsignaturasTitulacion";
             }
 
-            const url_cursoTFM = `https://tfg-back-end.onrender.com/bloque_TFM/curso?bloque=${TFG_TFM_Block}&curso=${TFG_cursoTFM}`
+            const url_cursoTFM = `https://tfg-back-end-w9t4.onrender.com/bloque_TFM/curso?bloque=${TFG_TFM_Block}&curso=${TFG_cursoTFM}`
             const response_cursoTFM = await fetch(url_cursoTFM, {
                 method: "GET",
             });

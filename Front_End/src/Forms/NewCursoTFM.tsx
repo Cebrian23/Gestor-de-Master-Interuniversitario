@@ -28,7 +28,7 @@ function NewCursoTFM() {
                 globalThis.location.href = "/login";
             }
 
-            const url_persona = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url_persona = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response_persona = await fetch(url_persona, {
                 method: "GET",
             });
@@ -65,7 +65,7 @@ function NewCursoTFM() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const url_titulacion = `https://tfg-back-end.onrender.com/titulacion?id=${TFG_titulacion}`;
+            const url_titulacion = `https://tfg-back-end-w9t4.onrender.com/titulacion?id=${TFG_titulacion}`;
             const response_titulacion = await fetch(url_titulacion, {
                 method: "GET",
             });
@@ -91,7 +91,7 @@ function NewCursoTFM() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const urlAlumnos = `https://tfg-back-end.onrender.com/personas/alumnos_para_TFM?titulacion=${TFG_titulacion}&asignatura=`;
+            const urlAlumnos = `https://tfg-back-end-w9t4.onrender.com/personas/alumnos_para_TFM?titulacion=${TFG_titulacion}&asignatura=`;
             const dataAlumnos = await fetch(urlAlumnos,
                 {
                     method: "GET",
@@ -148,7 +148,7 @@ function NewCursoTFM() {
             NProgress.start();
 
             try{
-                const url = `https://tfg-back-end.onrender.com/cursoTFM`;
+                const url = `https://tfg-back-end-w9t4.onrender.com/cursoTFM`;
                 const response = await fetch(url, {
                     method: "POST",
                     body: JSON.stringify(body),

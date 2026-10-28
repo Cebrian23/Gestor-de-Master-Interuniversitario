@@ -28,7 +28,7 @@ function UserPage() {
                 globalThis.location.href = "/login";
             }
 
-            const url_user = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url_user = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response_user = await fetch(url_user, {
                 method: "GET",
             });
@@ -44,7 +44,7 @@ function UserPage() {
             const data_user = await response_user.json();
 
             if(data_user.rol === "Administrativo"){
-                const url_titulacion = `https://tfg-back-end.onrender.com/administrativo/titulaciones?admin=${auth}`;
+                const url_titulacion = `https://tfg-back-end-w9t4.onrender.com/administrativo/titulaciones?admin=${auth}`;
                 const response_titulacion = await fetch(url_titulacion, {
                     method: "GET",
                 });
@@ -65,7 +65,7 @@ function UserPage() {
                 }
             }
             else{
-                const url_titulacion = `https://tfg-back-end.onrender.com/docente/titulaciones?docente=${auth}`;
+                const url_titulacion = `https://tfg-back-end-w9t4.onrender.com/docente/titulaciones?docente=${auth}`;
                 const response_titulacion = await fetch(url_titulacion, {
                     method: "GET",
                 });

@@ -51,7 +51,7 @@ function NewTFM() {
                 globalThis.location.href = "/login";
             }
             
-            const url_persona = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url_persona = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response_persona = await fetch(url_persona, {
                 method: "GET",
             });
@@ -82,7 +82,7 @@ function NewTFM() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const url_titulacion = `https://tfg-back-end.onrender.com/titulacion?id=${TFG_titulacion}`;
+            const url_titulacion = `https://tfg-back-end-w9t4.onrender.com/titulacion?id=${TFG_titulacion}`;
             const response_titulacion = await fetch(url_titulacion, {
                 method: "GET",
             });
@@ -109,7 +109,7 @@ function NewTFM() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const urlDocentes = `https://tfg-back-end.onrender.com/personas/docentes?titulacion=${TFG_titulacion}`;
+            const urlDocentes = `https://tfg-back-end-w9t4.onrender.com/personas/docentes?titulacion=${TFG_titulacion}`;
 
             const response_Docentes = await fetch(urlDocentes,
                 {
@@ -150,7 +150,7 @@ function NewTFM() {
             setDocentesBusqueda(dataDocentes);
             */
 
-            const url_cursos = `https://tfg-back-end.onrender.com/cursos_TFM?titulacion=${TFG_titulacion}`;
+            const url_cursos = `https://tfg-back-end-w9t4.onrender.com/cursos_TFM?titulacion=${TFG_titulacion}`;
 
             const response_cursos = await fetch(url_cursos,
                 {
@@ -288,7 +288,7 @@ function NewTFM() {
             NProgress.start();
                                 
             try{
-                const url = `https://tfg-back-end.onrender.com/TFM`;
+                const url = `https://tfg-back-end-w9t4.onrender.com/TFM`;
                 const response = await fetch(url, {
                     method: "POST",
                     body: JSON.stringify(data_TFM),

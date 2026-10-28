@@ -18,7 +18,7 @@ function TFM_BlockPage() {
                 globalThis.location.href = "/login";
             }
 
-            const url_auth = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url_auth = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response_user = await fetch(url_auth, {
                 method: "GET",
             });
@@ -42,7 +42,7 @@ function TFM_BlockPage() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const url_titulacion = `https://tfg-back-end.onrender.com/titulacion?id=${TFG_titulacion}`;
+            const url_titulacion = `https://tfg-back-end-w9t4.onrender.com/titulacion?id=${TFG_titulacion}`;
             const response_titulacion = await fetch(url_titulacion, {
                 method: "GET",
             });
@@ -73,7 +73,7 @@ function TFM_BlockPage() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const url_block = `https://tfg-back-end.onrender.com/bloque_TFM?id=${TFG_TFM_Block}`;
+            const url_block = `https://tfg-back-end-w9t4.onrender.com/bloque_TFM?id=${TFG_TFM_Block}`;
             const response_block = await fetch(url_block, {
                 method: "GET",
             })

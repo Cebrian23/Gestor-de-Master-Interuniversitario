@@ -16,7 +16,7 @@ function ShowCursosTFM() {
                 globalThis.location.href = "/login";
             }
             
-            const url_persona = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url_persona = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response_persona = await fetch(url_persona, {
                 method: "GET",
             });
@@ -44,7 +44,7 @@ function ShowCursosTFM() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const url_titulacion = `https://tfg-back-end.onrender.com/titulacion?id=${id_titulacion}`;
+            const url_titulacion = `https://tfg-back-end-w9t4.onrender.com/titulacion?id=${id_titulacion}`;
             const response_titulacion = await fetch(url_titulacion, {
                 method: "GET",
             });
@@ -71,7 +71,7 @@ function ShowCursosTFM() {
                 globalThis.location.href = "/mostrarTitulaciones";
             }
 
-            const url_TFM_Block = `https://tfg-back-end.onrender.com/bloque_TFM?bloque=${TFG_TFM_Block}`
+            const url_TFM_Block = `https://tfg-back-end-w9t4.onrender.com/bloque_TFM?bloque=${TFG_TFM_Block}`
             const response_TFM_Block = await fetch(url_TFM_Block, {
                 method: "GET",
             });

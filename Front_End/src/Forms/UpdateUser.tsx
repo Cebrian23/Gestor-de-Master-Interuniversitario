@@ -47,7 +47,7 @@ function UpdateUser() {
                 globalThis.location.href = "/login";
             }
 
-            const url = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response = await fetch(url, {
                 method: "GET",
             });
@@ -240,7 +240,7 @@ function UpdateUser() {
             NProgress.start();
 
             try{
-                const url = "https://tfg-back-end.onrender.com/datos_persona";
+                const url = "https://tfg-back-end-w9t4.onrender.com/datos_persona";
                 const response = await fetch(url, {
                     method: "PUT",
                     body: JSON.stringify(body),

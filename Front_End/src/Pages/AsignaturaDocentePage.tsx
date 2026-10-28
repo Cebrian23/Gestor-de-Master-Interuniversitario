@@ -28,7 +28,7 @@ function AsignaturaDocentePage() {
                 globalThis.location.href = "/login";
             }
 
-            const url_auth = `https://tfg-back-end.onrender.com/persona/id?id=${auth}`;
+            const url_auth = `https://tfg-back-end-w9t4.onrender.com/persona/id?id=${auth}`;
             const response_user = await fetch(url_auth, {
                 method: "GET",
             });
@@ -54,7 +54,7 @@ function AsignaturaDocentePage() {
                 globalThis.location.href = "/paginaPersonal";
             }
 
-            const url_titulacion = `https://tfg-back-end.onrender.com/titulacion?id=${TFG_titulacion}`;
+            const url_titulacion = `https://tfg-back-end-w9t4.onrender.com/titulacion?id=${TFG_titulacion}`;
             const response_titulacion = await fetch(url_titulacion, {
                 method: "GET",
             });
@@ -86,7 +86,7 @@ function AsignaturaDocentePage() {
                 globalThis.location.href = "/mostrarAsignaturas"
             }
 
-            const url_asig = `https://tfg-back-end.onrender.com/asignatura?id=${TFG_asig}`;
+            const url_asig = `https://tfg-back-end-w9t4.onrender.com/asignatura?id=${TFG_asig}`;
             const response_asig = await fetch(url_asig, {
                 method: "GET",
             })
@@ -118,7 +118,7 @@ function AsignaturaDocentePage() {
                 globalThis.location.href = "/mostrarAsignaturas";
             }
 
-            const url_curso = `https://tfg-back-end.onrender.com/curso?curso=${TFG_curso}&asignatura=${TFG_asig}`;
+            const url_curso = `https://tfg-back-end-w9t4.onrender.com/curso?curso=${TFG_curso}&asignatura=${TFG_asig}`;
             const response_curso = await fetch(url_curso, {
                 method: "GET",
             });
