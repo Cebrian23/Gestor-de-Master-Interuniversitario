@@ -116,7 +116,7 @@ El backend solo define `deno task dev`.
 
 ## API REST
 
-Base local: `http://localhost:4000`. Todas las rutas responden JSON en caso de éxito y, habitualmente, `{ "error": "..." }` en error.
+Base local: `http://localhost:4000`. Todas las rutas responden JSON en caso de éxito y, habitualmente, `{ "error": "..." }` en caso de error.
 
 ### Consultas (`GET`)
 
